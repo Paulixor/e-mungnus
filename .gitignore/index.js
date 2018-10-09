@@ -22,7 +22,7 @@ bot.on("guildMemberRemove", member => {
     const bvn = member.guild.channels.find(`name`, "réception")
     if(!bvn) return;
     var embed = new Discord.RichEmbed()
-            .setAuthor("L.G.G.#1073", bot.user.avatarURL)
+            .setAuthor("E-Mungnus#4009", bot.user.avatarURL)
             .setTitle(`${member.user.tag} departure from the server`)
             .addField(`Good continuation`, `Bonne continuation \nХорошее продолжение`, true)
             .setColor("0fc0000")
